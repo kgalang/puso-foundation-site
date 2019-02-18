@@ -9,16 +9,17 @@ const Hero = props => {
   return (
     <React.Fragment>
       <section className="hero">
-        <h1>
-          This is a demo site of&nbsp;the <strong>heroBlog</strong> GatsbyJS starter
-        </h1>
-        <button onClick={scrollToContent} aria-label="scroll">
-          <FaArrowDown />
-        </button>
+          <h1>
+            Providing Hope With a Purpose
+          </h1>
+          <button onClick={scrollToContent} aria-label="scroll">
+            <FaArrowDown />
+          </button>
       </section>
 
       {/* --- STYLES --- */}
       <style jsx>{`
+
         .hero {
           align-items: center;
           background: ${theme.hero.background};
